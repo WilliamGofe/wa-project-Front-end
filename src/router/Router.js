@@ -7,7 +7,8 @@ import InfosPage from "../pages/InfosPage";
 import QuestionsPage from "../pages/QuestionsPage";
 
 
-function Router() {
+function Router(props) {
+ const a = 'a'
   return (
     <BrowserRouter>
       <Switch>
@@ -16,7 +17,7 @@ function Router() {
         </Route>
 
         <Route exact path="/decision">
-          <DecisionPage/>
+          <DecisionPage info = {a}/>
         </Route>
 
         <Route exact path="/questions">
