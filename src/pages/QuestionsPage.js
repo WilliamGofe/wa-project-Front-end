@@ -30,15 +30,11 @@ function QuestionsPage() {
         question()
     }, [])
 
-
-  
     const goToHomePage = () => {
        history.push('/')
     }
 
-
     const handleCheck = (e) => {
-   
        
         if (e.valor === "correta") {
         
@@ -63,7 +59,6 @@ function QuestionsPage() {
 
         localStorage.setItem('valores', objJson)
 
-
     }
    
     const question = () => {
@@ -75,7 +70,6 @@ function QuestionsPage() {
                 console.log(e)
             })
     }
-
 
     const mapQuestoes = () => {
      

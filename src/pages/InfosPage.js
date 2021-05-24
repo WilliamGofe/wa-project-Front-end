@@ -2,22 +2,9 @@ import { Button,Box } from '@material-ui/core'
 import React from 'react'
 import { useHistory } from 'react-router'
 import styled from 'styled-components'
+import { H2, Number, Perguntas, Respostas } from '../components/Theme'
 
-const H2 = styled.h2`
 
-`
-const Number = styled.p `
-font-size: larger;
-font-style: oblique;
-`
-const Perguntas = styled.h4`
-font-style: italic;
-`
-
-const Respostas = styled.p`
-font-size: 18px;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-`
 
 
 function InfosPage() {
