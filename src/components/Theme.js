@@ -56,3 +56,17 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 font-size:30px;
 color:#333;
 `
+export const H2 = styled.h2`
+`
+export const Number = styled.p `
+font-size: larger;
+font-style: oblique;
+`
+export const Perguntas = styled.h4`
+font-style: italic;
+`
+
+export const Respostas = styled.p`
+font-size: 18px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+`
